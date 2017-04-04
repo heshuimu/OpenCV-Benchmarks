@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>CannyEdgeDetectionCPU.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>CannyEdgeDetectionGPU.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>B62168711E91992E007B87B5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B621687F1E919962007B87B5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B67DABB21E92FBA700DA64D5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B67DABBC1E92FC5300DA64D5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

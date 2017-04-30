@@ -10,6 +10,7 @@
 
 #include "opencv2/imgproc.hpp"
 #include "opencv2/highgui.hpp"
+#include "opencv2/core/ocl.hpp"
 
 using namespace cv;
 using namespace std;
@@ -18,6 +19,20 @@ int main(int a, char** b)
 {
 	Mat source, grayscale, blurred, canny;
 	VideoCapture captureDevice(b[1]);
+	
+	if(ocl::useOpenCL())
+	{
+		cout << "Using OpenCL, disabled for even footing. \n";
+		//ocl::setUseOpenCL(false);
+	}
+	
+	if(useOptimized())
+	{
+		cout << "Using Optimized (SSE2 etc.). Disabled. \n";
+		setUseOptimized(false);
+	}
+	
+	setNumThreads(0);
 	
 	unsigned long frameCount = 0;
 	
